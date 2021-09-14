@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  background-color: rgb(68, 65, 65);
+  background-color: #616161;
   display: flex;
   flex-direction: row;
   height: 10em;
@@ -12,6 +12,7 @@ nav {
 }
 
 main {
+  background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -63,14 +64,12 @@ main {
 }
 
 .material-icons {
+  color: #CDDC39;
   font-size: 2em;
   padding-bottom: -20px;
 }
 
 .card-container {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: .5em; */
   justify-content: center;
   display: flex;
   gap: 1em;
@@ -84,9 +83,41 @@ main {
 }
 
 .card-top-container {
-  background: url('assets/images/PB.jpeg') center/100% no-repeat;
   display: flex;
   justify-content: space-between;
+  height: 8em;
+}
+
+#card-1 {
+  background: url('assets/images/PB.jpeg') center/100% no-repeat;
+}
+
+#card-2 {
+  background: url('assets/images/bmo.png') center/100% no-repeat;
+}
+
+#card-3 {
+  background: url('assets/images/finn.jpeg') center/100% no-repeat;
+}
+
+#card-4 {
+  background: url('assets/images/gunter.png') center/100% no-repeat;
+}
+
+#card-5 {
+  background: url('assets/images/ice-king-costume.jpeg') top/100% no-repeat;
+}
+
+#card-6 {
+  background: url('assets/images/jake.jpeg') center/100% no-repeat;
+}
+
+#card-7 {
+  background: url('assets/images/marceline.png') center/100% no-repeat;
+}
+
+#card-8 {
+  background: url('assets/images/Peppermint-Butler-1.jpeg') center/100% no-repeat;
 }
 
 .share-playlist-button {
@@ -101,12 +132,55 @@ main {
   padding: 1em;
 }
 
+.number-views {
+  font-size: 28px;
+  margin: 0;
+}
+
+.views-tag {
+  align-self: auto;
+}
+
+.number-of-attachments{
+  color: #CDDC39;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.recipients-namehere {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.date-sent {
+  color: #757575;
+  margin: 0;
+}
+
+.playlist-tag {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.playlist-name {
+  margin: 0;
+
+}
+
 .card-url {
-  background-color: rgb(161, 159, 159);
+  background-color: #BDBDBD;
   display: flex;
-  padding: 6px;
-  width: 18em;
+  font-size: 12px;
+  padding: 9px;
+  width: 22em;
   word-break: break-all;
+}
+
+.attachments-tag {
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
 @media (max-width:850px) {
