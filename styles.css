@@ -1,0 +1,193 @@
+body {
+  font-family: 'Urbanist', sans-serif; 
+  margin: 0;
+}
+
+nav {
+  background-color: #616161;
+  display: flex;
+  flex-direction: row;
+  height: 10em;
+  justify-content: space-between;
+}
+
+main {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.main-heading {
+  padding-left: 20px;
+}
+
+.nav-bar-login-button {
+  align-items: center;
+  background: none;
+  border-style: none;
+  cursor: pointer;
+  display: flex;
+  font-size: .75em;
+  height: 3em;
+  padding-right: 20px;
+}
+
+.nav-bar-buttons {
+  background: none;
+  border-style: none;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  font-size: 1.5em;
+  height: 1.5em;
+  padding: 5px;
+}
+
+.nav-left {
+  display: flex;
+  margin-top: 5em;
+}
+
+.nav-right {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.nav-logo {
+  background: url("assets/images/adventuretimelogo.png") center/100% no-repeat;
+  height: 100px;
+  width: 225px;
+}
+
+.material-icons {
+  color: #CDDC39;
+  font-size: 2em;
+  padding-bottom: -20px;
+}
+
+.card-container {
+  justify-content: center;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.playlist-card {
+  border: 2px solid black;
+  box-shadow: 1px solid gray;
+  width: 20em;
+}
+
+.card-top-container {
+  display: flex;
+  justify-content: space-between;
+  height: 8em;
+}
+
+#card-1 {
+  background: url('assets/images/PB.jpeg') center/100% no-repeat;
+}
+
+#card-2 {
+  background: url('assets/images/bmo.png') center/100% no-repeat;
+}
+
+#card-3 {
+  background: url('assets/images/finn.jpeg') center/100% no-repeat;
+}
+
+#card-4 {
+  background: url('assets/images/gunter.png') center/100% no-repeat;
+}
+
+#card-5 {
+  background: url('assets/images/ice-king-costume.jpeg') top/100% no-repeat;
+}
+
+#card-6 {
+  background: url('assets/images/jake.jpeg') center/100% no-repeat;
+}
+
+#card-7 {
+  background: url('assets/images/marceline.png') center/100% no-repeat;
+}
+
+#card-8 {
+  background: url('assets/images/Peppermint-Butler-1.jpeg') center/100% no-repeat;
+}
+
+.share-playlist-button {
+  border-radius: 45%;
+  height: 4em;
+  margin-top: .75em;
+  margin-left: .75em;
+  width: 4em;
+}
+
+.card-bottom-container {
+  padding: 1em;
+}
+
+.number-views {
+  font-size: 28px;
+  margin: 0;
+}
+
+.views-tag {
+  align-self: auto;
+}
+
+.number-of-attachments{
+  color: #CDDC39;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.recipients-namehere {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.date-sent {
+  color: #757575;
+  margin: 0;
+}
+
+.playlist-tag {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.playlist-name {
+  margin: 0;
+
+}
+
+.card-url {
+  background-color: #BDBDBD;
+  display: flex;
+  font-size: 12px;
+  padding: 9px;
+  width: 22em;
+  word-break: break-all;
+}
+
+.attachments-tag {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+@media (max-width:850px) {
+  .nav-button-text {
+    display: none;
+  }
+  .material-icons {
+    font-size: 32px !important;
+  }
+}
